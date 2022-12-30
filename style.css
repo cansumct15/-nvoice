@@ -1,0 +1,198 @@
+* {
+	box-sizing: content-box;
+	font-size: inherit;
+}
+
+/* table */
+table {
+	font-size: 75%;
+	width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border-width: 1.75px;
+	padding: 0.5em;
+	position: relative;
+	text-align: left;
+}
+
+
+
+th {
+	background: #FFF;
+	border-color: rgb(52, 50, 50);
+	border-radius: 0.25em;
+	border-style: solid;
+}
+
+td {
+	border-color: rgb(52, 50, 50);
+	border-radius: 0.25em;
+	border-style: solid;
+}
+
+table input {
+	border:0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* page */
+
+html {
+	font: 12px/1 'Open Sans';
+	background: #999;
+}
+
+
+body {
+	box-sizing: border-box;
+	height: 11in;
+	margin: 0 auto;
+	padding: 0.5in;
+	width: 8.5in;
+	background: #FFF;
+}
+
+
+
+
+/*table mal_hizmet*/
+table.mal_hizmet {
+	margin: 0 0 3em;
+}
+
+
+
+
+/* table meta & toplam_tutar */
+
+table.meta,
+table.toplam_tutar {
+	float: right;
+	width: 36%;
+}
+
+table.meta input {
+	border: none;
+	width: 100%;
+}
+
+table.meta select {
+	width: 100%;
+}
+
+table.meta {
+	margin: 0 0 3em;
+}
+
+
+
+/*table invoice*/
+table.invoice {
+	float: left;
+	width: 36%;
+}
+
+table.invoice th {
+	width: 40%;
+}
+
+table.invioce td {
+	width: 60%;
+}
+table.invioce input{
+	border:0;
+}
+
+
+
+/*table invoices*/
+
+table.invoices {
+	float: left;
+	width: 36%;
+	border: size;
+	border: 3px;
+	color: black;
+}
+
+table.invoices th {
+	width: 40%;
+	
+}
+
+table.invioces td {
+	width: 60%;
+}
+
+
+
+
+/*imglogo*/
+img.imglogo {
+	width: 20%;
+}
+
+img.imglogo {
+	height: 14%;
+}
+
+
+
+/*imglogo1*/
+img.imglogo1 {
+	width: 30%;
+	height: 10%;
+}
+
+
+
+/* table meta */
+
+table.meta th {
+	width: 40%;
+}
+
+table.meta td {
+	width: 60%;
+}
+
+table.meta select{
+	border:none;
+}
+
+/* table toplam_tutar */
+
+table.toplam_tutar th,
+table.toplam_tutar td {
+	width: 80%;
+	height: 20%;
+}
+
+table.toplam_tutar td {
+	text-align: right;
+}
+
+
+/*table_qr && table_iban*/
+
+table.qr {
+	width: 100%;
+	height: 5%;
+}
+
+table.iban {
+	width: 100%;
+	height: 3%;
+}
+
+table.qr image {
+	align-items: right;
+}

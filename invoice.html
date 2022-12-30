@@ -1,0 +1,230 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="license" href="https://www.opensource.org/licenses/mit-license/">
+</head>
+
+
+<body>
+    <div class="table_gonderici">
+        <table class="invoice"><br>
+            <hr size="3" width="43%" align="left" color="black"><br>
+            
+           <tbody><br>
+
+                <tr>
+                    <th>Firma Ünvanı:
+                    <td><input name="firma" type="text" maxlength="15"></td>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Firma Adres:
+                    <td><input name="adres" type="text" maxlength="15"placeholder="İlçe/İl"></td>
+                    </th>
+                <tr>
+                    <th>Tel:
+                    <td><input name="tel" type="text" maxlength="11"> </td>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Web Sitesi:
+                    <td><input name="websitesi" type="text" maxlength="50"></td>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Vergi Dairesi:
+                    <td><input name="vergidaire" type="text" maxlength="40"></td>
+                    </th>
+                </tr>
+                <tr>
+                    <th>VKN:
+                    <td><input name="vkn" type="text" maxlength="15"></td>
+                    </th>
+                </tr>
+                <tr>
+                    <th>MÜSTERİ NO:
+                    <td><input name="musterino" type="text" maxlength="15"></td>
+                    </th>
+                </tr>
+            </tbody>
+
+        </table>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+    <div>
+        <img class="imglogo" alt="" src="image/logo.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+        <img class="imglogo1" src="https://www.kolaysoft.com.tr/wp-content/uploads/2019/10/kolay_main_logo.png" alt="">
+    </div>
+    </div>
+    <br>
+
+    <br>
+
+
+
+
+    <table class="invoices"><br>
+        <hr size="4" width="43%" align="left" color="black">
+        <hr size="1" width="43%" align="left" color="black">
+        <hr size="4" width="43%" align="left" color="black">
+
+        <thead><b>SAYIN</b></thead><br>
+        <tbody><br>
+            <th>Alıcı Ünvanı:
+            <td><input name="firma" type="text" maxlength="15"></td>
+            </th>
+            <tr>
+                <th> Adres:
+                <td><input name="adres" type="text" maxlength="15"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>Vergi Dairesi:
+                <td><input name="vergidaire" type="text" maxlength="40"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>TCKN:
+                <td><input name="vkn" type="text" maxlength="15"></td>
+                </th>
+            </tr>
+
+        </tbody>
+    </table><br>
+    
+    
+
+
+
+
+
+
+
+    <table class="meta">
+        <tr>
+            <th> Özelleştirme:
+            <td><input name="ozellestirme" type="text" maxlength="10"></td>
+            </th>
+        </tr>
+        <tr>
+            <th> Senaryo:
+            <td>
+                <select>
+                    <option value=" ">Seçiniz...</option>
+                    <option value="temelfatura">Temel Fatura</option>
+                    <option value="ticarifatura">Ticari Fatura</option>
+                    <option value="ticarifatura">Yolcu Beraber Fatura</option>
+                    <option value="ticarifatura">HKS</option>
+                    <option value="ticarifatura">Kamu</option>
+
+        <tr>
+            <th> Fatura Tipi:
+            <td>
+                <select>
+                    <option value=" ">Seçiniz...</option>
+                    <option value="İade">Temel Fatura</option>
+                    <option value="Satış">Ticari Fatura</option>
+                    <option value="Tevkifat">Yolcu Beraber Fatura</option>
+
+                </select>
+            </td>
+            </th>
+        </tr>
+        <tr>
+            <th> Fatura No:
+            <td><input name="faturano" type="text" maxlength="10"></td>
+            </th>
+        </tr>
+        <tr>
+            <th> Fatura Tarihi:
+            <td><input name="faturatarih" type="date" maxlength="10"></td>
+            </th>
+        </tr>
+    </table>
+    <br>
+
+    <table class="mal_hizmet"><br>
+     
+    <thead>
+            <tr>
+
+                <th>Sıra No</th>
+                <th>Mal Hizmet</th>
+                <th> Miktar</th>
+                <th> Birim Fiyat</th>
+                <th>KDV Oranı</th>
+                <th>KDV Tutarı</th>
+                <th>Diğer Vergiler</th>
+                <th>Mal Hizmet Tutarı</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td><input name="sirano" type="text" maxlength="15"></td>
+                <td><input name="mal_hizmet" type="text" maxlength="15"></td>
+                <td><input name="miktar" type="text" maxlength="15"></td>
+                <td><input name="birim_fiyat"type="text" maxlength="15"></td>
+                <td><input name="kdv_oran" type="text" maxlength="15"></td>
+                <td><input name="kdv_tutar" type="text" maxlength="15"></td>
+                <td><input name="diger_vergi"type="text" maxlength="15"></td>
+                <td><input name="mal_hizmet_tutar"type="text" maxlength="15"></td>
+
+
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="toplam_tutar">
+        <tr>
+            <th> Mal Hizmet Toplam Tutarı:
+            <td><input name="malhizmet" type="text" maxlength="10"></td>
+            </th>
+        </tr>
+        <tr>
+            <th> Toplam İskonto:
+            <td><input name="adres" type="iskonto" maxlength="10"></td>
+            </th>
+        </tr>
+        <tr>
+            <th> Hesaplanan Gerçek Usulde Katma Değer Vergisi:
+            <td><input name="katmadeger" type="text" maxlength="10"></td>
+            </th>
+        </tr>
+        <tr>
+            <th> Vergiler Dahil Toplam Tutar:
+            <td><input name="adres" type="vergitoplamtutar" maxlength="10"></td>
+            </th>
+        </tr>
+        <tr>
+            <th> Ödenecek Toplam Tutar:
+            <td><input name="ödenecektutar" type="text" maxlength="10"></td>
+            </th>
+        </tr>
+    </table><br><br>
+
+
+    <br>
+    <table class="qr">
+        <tr>
+            <td>Yanlız#Yüz#Elli#TL<img class="qrkod" alt="" src="image/qrkod.png" width="10%" height="10%"align="right"></td>
+        </tr>
+    </table>
+
+    <table class="iban">
+        <tr>
+            <th>Banka Şube:<input class="t_banka" name="bankasube" type="text"></th>
+            <td>IBAN:<input class="t_iban" name="ibanno" type="text"></td>
+        </tr>
+
+    </table>
+
+
+
+</body>
+
+</html>
